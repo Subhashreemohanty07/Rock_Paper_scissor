@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}.dark{
+    background-color: black;
+    color: white;
+
+}
+.light{
+    background-color: white;
+    color: black;
+}.head{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #040441;
+    height: 5rem;
+    /* padding-top: 10px; */
+    line-height: 5rem;
+    position:sticky ;
+}
+/* style the images of rock paper and scissor */
+#rock{
+    margin-left: 400px;}
+
+img
+{
+    margin-top: 5rem;
+    margin-right: 50px;
+    
+}
+img:hover{
+    opacity: 0.5;
+    transform: scale(1.1);
+
+} 
+/* for score board */
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    gap: 5rem;
+}
+#user-score,#comp-score{
+    font-size: 4rem;
+    text-align: center;
+}
+/* result container */
+.result{
+    margin-top: 5rem;
+    margin-left: 600px;
+    /* justify-content: center; */
+}
+#msg{
+    background-color: black;
+    color: white;
+    display: inline;
+    border-radius: 1rem;
+    font-size: 2rem;
+    padding: 0.9rem;
+    
+    
+}
